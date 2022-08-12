@@ -1,0 +1,159 @@
+.tegram {
+    height: 80px;
+    /* background-color: antiquewhite; */
+}
+
+.te-box {
+    /* align-items: center; */
+    background-color: rgba(220, 220, 220, 0.631);
+}
+
+.m-te-introduce {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    justify-content: flex-start;
+    color: #007087;
+}
+
+.binbox {
+    width: 100%;
+    height: 20px;
+    background-color: rgba(220, 220, 220, 0.631);
+}
+
+.te2 {
+    margin: 20px;
+}
+
+.te2 h3 {
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    font-size: 45px;
+    /* font-weight: bold; */
+}
+
+.te h2 {
+    margin: 0px;
+    margin-left: 10px;
+    color: #007087;
+}
+
+.now {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.now p {
+    padding-left: 3px;
+    color: #007087;
+}
+
+.te-main {
+    margin: 50px;
+    margin-left: 200px;
+    text-align: center;
+    width: 65%;
+    background-color: white;
+    max-width: 1000px;
+}
+
+.te-main h4 {
+    font-weight: bold;
+}
+
+.ig {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.ex {
+    width: 100%;
+    height: 450px;
+    margin: 15px 0px;
+}
+
+.ex p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.te2 h4 {
+    color: #007087;
+}
+.te2 img {
+    /* width: 100%; */
+    height: 100%;
+}
+
+.zzz {
+    /* text-align: right; */
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+}
+
+/* introduce */
+.intro-box {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 40px;
+    height: 320px;
+    width: 270px;
+    background-color: white;
+    /* border-radius: 10%; */
+}
+
+
+.intro-box h3 {
+    color: white;
+    height: 55%;
+    text-align: center;
+    padding-top: 25%;
+    font-size: 25px;
+    font-style: oblique;
+    background-color: #007087;
+}
+
+.intro-box p {
+    font-size: 17px;
+    margin: 5px;
+    margin-left: 15px;
+    font-style: oblique;
+}
+
+@media (max-width: 850px) {
+    .te-introduce {
+        display: none;
+    }
+
+    .te-main {
+        margin: 50px 8px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .ig {
+        flex-direction: column;
+    }
+    .te2 {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 850px) {
+    .m-te-introduce {
+        display: none;
+    }
+
+    .ex {
+        /* min-width: 300px; */
+    }
+}
+@media (max-width: 1200px) {
+    .ig {
+        flex-direction: column;
+    }
+}
