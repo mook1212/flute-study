@@ -36,7 +36,6 @@ function App() {
         <Route path='/Education' element={<Education></Education>} />
         <Route path='/HomeService' element={<HomeService></HomeService>} />
 
-
         <Route path='/teacher' element={<Teacher></Teacher>} />
 
 
@@ -54,7 +53,7 @@ function Carousels() {
   return (
     <>
       <div className='container1' >
-        <Carousel id='carousevar'>
+        <Carousel id='carousevar' >
           <Carousel.Item >
             <img
               className="d-block w-100"
@@ -139,8 +138,8 @@ function MainPage() {
         <p>Flute Study의 상세한 수업 정보,커리큘럼</p>
         <p>음표를 클릭하여 Flute Study를 만나보세요!</p>
         <p></p>
-        <img style={{cursor : 'pointer'}} 
-        onClick={() => { navigate('/Introduce') }} src={process.env.PUBLIC_URL + '/img/hugi.jpg'} />
+        <img style={{ cursor: 'pointer' }}
+          onClick={() => { navigate('/Introduce') }} src={process.env.PUBLIC_URL + '/img/hugi.jpg'} />
       </div>
     </div>
   )

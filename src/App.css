@@ -118,7 +118,6 @@ nav {
 }
 #carousevar img {
   /* max-height: 650px; */
-  /* min-height: 520px; */
 }
 #carousevar h3 {
   color: white;
@@ -135,9 +134,7 @@ nav {
   justify-content: space-around;
   
 }
-.bg {
 
-}
 .img-box {
   display: flex;
   flex-direction: column;
@@ -311,7 +308,7 @@ nav {
 
 @media (min-width: 800px) {
   #carousevar img {
-    max-height: 500px;
+    max-height: 600px;
   }
 }
 @media (max-width: 500px) {
